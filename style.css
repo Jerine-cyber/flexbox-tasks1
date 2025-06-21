@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darkslateblue;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+.titlebar{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: solid black 3px;
+    padding-bottom: 5px ;
+}
+
+.header-box{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container img{
+    height: 200px;
+    margin: 50px;
+    padding: 60px;
+
+}
